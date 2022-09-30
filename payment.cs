@@ -14,5 +14,8 @@ namespace csharp_ecommerce_db
         public DateTime Date { get; set; }
         public double Amount { get; set; }
         public string Status { get; set; }
+
+        public int orderId { get; set; }
+        public Orders order { get; set; }
     }
 }

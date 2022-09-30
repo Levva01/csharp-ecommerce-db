@@ -15,5 +15,6 @@ namespace csharp_ecommerce_db
         public string Name { get; set; }
         public string Description { get; set; }
         public double Price { get; set; }
+        List<Orders> orders { get; set; }
     }
 }
